@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#table {
+	border-spacing: 0;
+	display: none;
+}
+.tds {
+	border-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;	 			
+	}
+
+#table td {
+	border-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	background-color:  rgba(200,200,200,0);
+	margin: 0;
+	padding: 0;
+}
+tr {
+	margin: 0;
+	padding: 0;	    		
+}
+.panelItem {
+	background-color:  rgba(200,200,200,0.3);
+}
+.settingsPanel input {
+	width: 30px;
+}
+.settingsPanel {
+	margin: 0 auto;
+}
+#gameDiv, #table, #table2, #panel {
+	margin: 0 auto;
+}
+#gameDiv {
+	border: 3px solid black;
+	padding: 0;
+	margin: auto auto;
+	min-height: 500px;
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+}
+.btn, .btn-success {
+	width: 100px;
+	height: 60px;
+	font-size: 2em;
+	margin: 0 auto;
+	position: relative;
+	bottom: 10px;
+}
+#buttonDiv {
+	margin: 0 auto;	
+}
+#M, #N, #K {
+	width: 40%;
+	display: inline;
+}
+.container {
+	position: relative;
+	top: 25px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0 0 50px 0;
+}
+.container2 {
+	margin: 0 auto;
+}
+html {
+	position: relative;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+  	background-color: #444;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+  	background-color: #444;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+}
+.glyphicon {
+	height: 100%;
+}
+#playInfo {
+	background-color: rgba(200,255,200,0.8);
+}
+i.heart {
+	color: red;
+	position:relative; 
+	left:3px;
+	top: 1px;
+}
+i.at {
+	position:relative; 
+	left:4px;
+	color: black;
+}
+#bogyo1:hover, #bogyo2:hover, #bogyo3:hover,
+#bogyo4:hover, #bogyo5:hover, #bogyo6:hover {
+	cursor: pointer;
+}
+h1#gameName, .masthead {
+	background-color: #ddd;
+	margin: 0;
+	padding: 5px 0;
+	border-left: 20px solid #ddd;
+}
+label {
+	position: relative;
+	top: 8px;
+}
+#headerRow {
+	border-bottom: 2px solid black; 
+}
+#tutorial {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+#bogyo1 {
+	background-color: yellow;
+}
+#bogyo2 {
+	background-color: pink;
+}
+#bogyo3 {
+	background-color: magenta;
+}
+#bogyo4 {
+	background-color: blue;
+}
+#bogyo5 {
+	background-color: green;
+}
+#bogyo6 {
+	background-color: orange;
+}
+.makeYourSettings {
+	font-weight: 900;
+	text-decoration: underline;
+}
+#headerCol {
+	background-color:#ddd; 
+	border-bottom: 18px solid #ddd;
+}
+#headerColTable {
+	margin: 0 auto; 
+	display: inline; 
+	position: relative; 
+	top: 10px;
+}
+.headerSneakLogo {
+	border-radius: 10px; 
+	background-color:rgb(173,166,62);
+}
+.headerSneakLogoHead {
+	border-radius: 10px; 
+	background-color:rgb(123,66,12);
+}
+.bgColorDDD {
+	background-color:#ddd;
+}
+.sideSneakLogo {
+	width: 20px; 
+	border-radius: 10px; 
+	background-color:rgb(173,166,62);
+}
+.sideSneakLogoHead {
+	width: 20px; 
+	border-radius: 10px; 
+	background-color: rgb(123,66,12);
+}
+.spiral {
+	position:relative; 
+	left:4px;
+}
+.sideSneakLogoTable {
+	margin: 0 auto; 
+	position: relative; 
+	top: 20px; 
+	left:-20px;
+}
+#bogyok {
+	border-spacing: 15px; 
+	margin: 48px auto;	
+}
+.infoTD {
+	padding-left:15px; padding-right:15px;
+}
+.infoLabelTD {
+	padding-right:25px;
+}
+.bogyoTD {
+	width:20px; 
+	border-radius:10px;
+}
+.underLined {
+	text-decoration: underline;
+}

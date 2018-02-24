@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#table {
+	border-spacing: 0;
+	/*background-color: #fff;*/
+}
+.tds {
+	border-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	/*background-color: #fff;*/
+	margin: 0;
+	padding: 0;	 			
+	}
+
+#table td {
+	border-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	background-color:  rgba(200,200,200,0);
+	margin: 0;
+	padding: 0;
+}
+tr {
+	margin: 0;
+	padding: 0;	    		
+}
+.panelItem {
+	background-color:  rgba(200,200,200,0.3);
+	/*margin: 0 25px;*/
+}
+
+.settingsPanel input {
+	width: 30px;
+}
+.settingsPanel {
+	margin: 0 auto;
+}
+#gameDiv, #table, #table2, #panel {
+	margin: 0 auto;
+}
+#gameDiv {
+	border: 3px solid black;
+	padding: 0;
+	margin: auto auto;
+	min-height: 500px;
+	background-image: url('bg.jpg');
+	background-size: cover;
+}
+.btn, .btn-success {
+	width: 100px;
+	height: 60px;
+	font-size: 2em;
+	margin: 0 auto;
+	position: relative;
+	bottom: 10px;
+}
+#buttonDiv {
+	margin: 0 auto;	
+}
+#M, #N, #K {
+	width: 40%;
+	display: inline;
+}
+.container {
+	position: relative;
+	top: 25px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0 0 50px 0;
+}
+.container2 {
+	margin: 0 auto;
+}
+html {
+	position: relative;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+  	background-color: #444;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+  	background-color: #444;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+}
+
+.glyphicon {
+	height: 100%;
+}
+#playInfo {
+	background-color: rgba(200,255,200,0.8);
+	/*max-width: 100%;*/
+}
+
+i.heart {
+	color: red;
+	position:relative; 
+	left:3px;
+	top: 1px;
+}
+
+i.at {
+	position:relative; 
+	left:4px;
+	color: black;
+}
+
+#bogyo1:hover, #bogyo2:hover, #bogyo3:hover,
+#bogyo4:hover, #bogyo5:hover, #bogyo6:hover {
+	cursor: pointer;
+}
+
+h1#gameName, .masthead {
+	background-color: #ddd;
+	margin: 0;
+	padding: 5px 0;
+	border-left: 20px solid #ddd;
+}
+label {
+	position: relative;
+	top: 8px;
+}
+#headerRow {
+	border-bottom: 2px solid black; 
+}
+#tutorial {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.bogyo1 {
+	width: 20px; 
+	border-radius: 10px; 
+	background-color: yellow;
+}
+.makeYourSettings {
+	font-weight: 900;
+	text-decoration: underline;
+}

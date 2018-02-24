@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sneak</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="container2">
+        <!-- The justified navigation menu is meant for single line per list item.
+             Multiple lines will require custom code not provided by Bootstrap. -->
+        <div class="row" id="headerRow">
+          <div class="col-lg-12" style="background-color:#ddd; border-bottom: 18px solid #ddd;">
+          <h1 id="gameName" class="text-center">Dragon Warrior
+            <table style="margin: 0 auto; display: inline; position: relative; top: 10px;">
+              <tr>
+                <td style="border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+                <td style="border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+                <td style="border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+                <td style="border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+                <td style="border-radius: 10px; background-color:rgb(123,66,12);">&nbsp;</td>
+              </tr>
+            </table>
+          </h1>
+          <nav>
+            <ul class="nav nav-justified">
+           	<!--
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            	-->
+            </ul>
+          </nav>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3" style="background-color:#ddd;">
+  	         <h3 class="text-center"><strong class="makeYourSettings">Make your settings</strong></h3>
+  	         <div class="settingsPanel">
+                <form class="settingsPanel">
+  			           <div class="form-group">
+  			             <label class="col-md-6 control-label" for="N">Rows</label>
+  	     			         <div class="col-md-6">
+              			       9 < <input type="text" class="form-control" id="N" placeholder="10"> < 23 
+               				 </div>
+  			           </div>
+  			           <div class="form-group">
+  			               <label class="col-md-6 control-label" for="M">Columns</label>
+  				             <div class="col-md-6">
+  			                   9 < <input type="text" class="form-control" id="M" placeholder="10"> < 46
+          				     </div>
+      			       </div>
+  			           <div class="form-group">
+  			               <label class="col-md-6 control-label" for="K">Objects</label>
+  				              <div class="col-md-6">
+                              <!-- HIBA ITT -->
+    	            		     0 < <input type="text" class="form-control" id="K" placeholder="2"> < 20
+                              <!-- HIBA ITT -->
+            				    </div>
+  			           </div>
+  			        </form>
+             </div>
+  			     <table style="margin: 0 auto; position: relative; top: 20px; left:-20px;">
+  				      <tr>
+  					       <td style="width: 20px !important; border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+        					<td style="width: 20px !important; border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+        					<td style="width: 20px !important; border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+        					<td style="width: 20px !important; border-radius: 10px; background-color:rgb(173,166,62);">&nbsp;</td>
+        					<td style="width: 20px !important; border-radius: 10px; background-color:rgb(123,66,12);">&nbsp;</td>
+  				      </tr>
+  			     </table>	
+       			 <div id="tutorial">
+       				 <table id="bogyok" style="border-spacing: 15px; margin: 48px auto;">
+      					 <tr>
+       						 <td id="bogyo1" class="bogyo1"><i class="fa fa-bullseye at" style="position:relative; left:4px;"></i></td>
+       						 <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Wisdom:</strong> <span class="pull-right">+4 Growth</span></td>
+       					 </tr>
+       					 <tr>
+       						 <td id="bogyo2" style="width:20px; border-radius:10px; background-color: pink"><i class="fa fa-bullseye at" style="position:relative; left:4px;"></i></td>
+       						 <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Reverse:</strong> <span class="pull-right">Turn Back</span></td>
+       					 </tr>
+                 <tr>
+                   <td id="bogyo3" style="width:20px; border-radius:10px; background-color: magenta"><i class="fa fa-bullseye at" style="position:relative; left:4px;"></i></td>
+                   <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Mirrors:</strong> <span class="pull-right">Opposite Controls</span></td>
+                 </tr>
+       					 <tr>
+       						 <td id="bogyo4" style="width:20px; border-radius:10px; background-color: blue"><i class="fa fa-bullseye at" style="position:relative; left:4px;"></i></td>
+       						 <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Greed:</strong> <span class="pull-right">1.5X Fast (5 sec)</span></td>
+       					 </tr>
+       					 <tr>
+       						 <td id="bogyo5" style="width:20px; border-radius:10px; background-color: green"><i class="fa fa-bullseye at" style="position:relative; left:4px;"></i></td>
+       						 <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Laziness:</strong> <span class="pull-right">1.5X Slow (5 sec)</span></td>
+       					 </tr>
+       					 <tr>
+       						 <td id="bogyo6" style="width:20px; border-radius:10px; background-color: orange"><i class="fa fa-bullseye at" style="position:relative; left:4px;"></i></td>
+       						 <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Gluttony:</strong> <span class="pull-right">+10 Growth</span></td>
+       					 </tr>
+                 <tr>
+                   <td style="width:20px; border-radius:10px;"><i class="fa fa-heart-o heart" style="position:relative; left:4px;"></i></td>
+                   <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Heart:</strong> <span class="pull-right">+1 Life (5 max)</span></td>
+                 </tr>
+                 <tr>
+                   <td style="width:20px; border-radius:10px;"><i class="fa fa-heart heart" style="position:relative; left:4px;"></i></td>
+                   <td style="padding-left:15px; padding-right:15px;"><strong style="padding-right:25px">Heart:</strong> <span class="pull-right">max life</span></td>
+                 </tr>
+       				</table>
+       			</div>
+            <div id="buttonDiv" class="col col-md-12 text-center">
+              <button type="submit" class="btn btn-success" id="start-btn" autofocus>Start</button>
+            </div>
+          </div>
+          <div class="col-lg-9" id="gameDiv">
+          	<table id="table" style="display:none">
+          		<tr id='playInfo'>
+          			<td id="points" class="panelItem">&nbsp;</td>
+          			<td id="state" class="panelItem">&nbsp;</td>
+          			<td id="countdown" class="panelItem">&nbsp;</td>
+          			<td id="life1" class="panelItem">
+      				  	&nbsp;
+          			</td>
+          			<td id="life2" class="panelItem">
+  				  	  	&nbsp;
+          			</td>
+          			<td id="life3" class="panelItem">
+  			  	    	&nbsp;
+          			</td>
+                <td id="life4" class="panelItem">
+                  &nbsp;
+                </td>
+                <td id="life5" class="panelItem">
+                  &nbsp;
+                </td>
+          		</tr>
+          	</table>
+          </div>
+        </div>      
+      </div> <!-- /container2 -->
+    </div> <!-- /container -->
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+     	  <p>&copy; 2016 Nagy Roland Sándor <span class="pull-right">ELTE IK PTI, Web-Fejlesztés 2. JS Bead.</span></p>
+ 	   </footer>
+
+
+
+	<script src="sneakUI.js"></script>
+	<script src="sneak3.js"></script>
+  </body>
+</html>
